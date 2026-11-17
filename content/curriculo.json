@@ -1,7 +1,7 @@
 {
   "nome": "Matheus Giovani da Silva Pereira",
   "cargo": "Analista de Qualidade (QA) e Desenvolvedor",
-  "resumo": "Profissional de TI com mais de 4 anos de experiência somando desenvolvimento, suporte e qualidade de software. Hoje sou Analista de Qualidade na Dataweb Tecnologia, onde automatizo testes de ponta a ponta com Playwright e Cypress, valido regras de negócio direto no banco com SQL e testo integrações de pagamento. Em paralelo, desenvolvo o BattleZone, meu TCC em Análise e Desenvolvimento de Sistemas, e estudo .NET.",
+  "resumo": "Profissional de TI com mais de 4 anos de experiência somando desenvolvimento, suporte e qualidade de software. Sou QA na Dataweb Tecnologia, onde testo o ERP usado por óticas de todo o Brasil, na versão desktop e na web: automatizo testes de ponta a ponta com Playwright e Cypress, valido regras de negócio direto no banco com SQL e garanto que integrações de pagamento e de atendimento cheguem estáveis a quem usa. Estudo Análise e Desenvolvimento de Sistemas na UniFTEC, onde desenvolvo o BattleZone como TCC. Aberto a oportunidades em Porto Alegre, no modelo híbrido ou remoto.",
   "links": [
     { "rotulo": "GitHub", "url": "https://github.com/MatheusGiovani633" },
     { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210" },
@@ -10,15 +10,17 @@
   "experiencia": [
     {
       "cargo": "Analista de Qualidade (QA)",
-      "empresa": "Dataweb Tecnologia",
-      "periodo": "2025 – atual",
+      "empresa": "Dataweb Tecnologia · ERP para o ramo óptico",
+      "periodo": "2024 – atual (entrei no time de testes como Assistente de Testes Júnior)",
       "pontos": [
-        "Automatizo testes de ponta a ponta com Playwright e Cypress e fluxos de integração com n8n.",
-        "Valido relatórios e regras do ERP direto no banco, com SQL avançado, antes de cada liberação.",
-        "Testo APIs e integrações com Postman e Bruno, incluindo conciliadoras de pagamento (Fiserv e BRConsulting).",
-        "Planejo e registro os testes no Jira com o plugin QAlity e consultas JQL; executo testes de regressão, caixa branca e caixa preta entre versões.",
-        "Uso IA integrada ao projeto para acelerar testes e escrever documentação e changelogs.",
-        "Priorizo melhorias do ERP junto ao Product Owner, em times Scrum e Kanban."
+        "Testo cada entrega do ERP antes de ela chegar às óticas: recebo a versão de teste da tarefa, sigo o roteiro do desenvolvedor, testo os casos de borda e registro o resultado com evidências no Jira (QAlity).",
+        "Automatizo testes de ponta a ponta com Playwright e Cypress e testo APIs e integrações com Postman e Bruno.",
+        "Valido no banco de dados, com SQL, o que a tela mostra: estado antes e depois de cada operação, relatórios e regras fiscais.",
+        "Testo integrações de pagamento e conciliação, como PIX, TEF e as conciliadoras Fiserv e BRConsulting.",
+        "Fui QA da nova Central de Atendimento do WhatsApp no módulo CRM: mensagens que chegam em segundos, não se perdem se o sistema cair e nunca aparecem para o cliente errado.",
+        "Uso agentes de IA para acelerar a execução de testes, a triagem da fila e a documentação, e automatizo processos com n8n.",
+        "Gravo os vídeos de treinamento das novas ferramentas para as óticas e escrevo documentação e changelogs.",
+        "Participo do planejamento de melhorias com o Product Owner, em times Scrum e Kanban."
       ]
     },
     {
@@ -26,7 +28,7 @@
       "empresa": "Dataweb Tecnologia",
       "periodo": "2023 – 2024",
       "pontos": [
-        "Atendi usuários por acesso remoto (AnyDesk) em emissão de notas fiscais, relatórios e rotinas do ERP.",
+        "Atendi as óticas por acesso remoto (AnyDesk) em emissão de notas fiscais, relatórios e rotinas do ERP.",
         "Ajustei consultas customizadas vindas do desenvolvimento para cada cliente.",
         "Administrei chamados no Zendesk respeitando os SLAs e reportei bugs e melhorias no Redmine.",
         "Escrevi a documentação de configuração da base de ajuda (Zendesk Help Center)."
@@ -55,9 +57,15 @@
   "formacao": [
     {
       "curso": "Análise e Desenvolvimento de Sistemas",
-      "instituicao": "FTEC Porto Alegre",
+      "instituicao": "UniFTEC Porto Alegre",
       "periodo": "Em andamento",
       "detalhe": "TCC: BattleZone, plataforma de torneios de card games para lojas."
+    },
+    {
+      "curso": "React: desenvolvendo com JavaScript",
+      "instituicao": "Alura",
+      "periodo": "Concluído",
+      "detalhe": ""
     },
     {
       "curso": "Técnico em Informática",
@@ -73,11 +81,11 @@
     }
   ],
   "habilidades": {
-    "Qualidade e testes": ["Playwright", "Cypress", "PyTest", "Postman", "Bruno", "Testes de regressão", "Testes de API", "Jira + QAlity (JQL)"],
-    "Linguagens": ["JavaScript", "TypeScript", "Python", "SQL", "C#", "PHP", "C++"],
+    "Qualidade e testes": ["Playwright", "Cypress", "PyTest", "Postman", "Bruno", "Testes de regressão", "Testes de API", "Jira + QAlity (JQL)", "Agentes de IA para QA"],
+    "Linguagens": ["JavaScript", "TypeScript", "Python", "SQL", "C#", "Kotlin", "PHP", "C++"],
     "Front-end": ["React", "Next.js", "Angular", "Bootstrap", "HTML e CSS"],
     "Back-end e dados": ["Node.js + Express", "FastAPI", "PostgreSQL", "Bancos relacionais", ".NET (estudando)"],
-    "Ferramentas e infra": ["Git", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
+    "Ferramentas e infra": ["Git", "GitHub Actions", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
     "Métodos": ["Scrum", "Kanban"]
   },
   "idiomas": [
@@ -96,12 +104,36 @@
     {
       "nome": "Este site",
       "url": "https://github.com/MatheusGiovani633/Portfolio",
-      "descricao": "Meu currículo e blog, em Node.js + Express, com os posts escritos em Markdown.",
-      "tecnologias": ["Node.js", "Express", "Markdown"]
+      "descricao": "Meu currículo e blog, em Node.js + Express, com os posts escritos em Markdown, testes automatizados e deploy contínuo pelo GitHub Actions.",
+      "tecnologias": ["Node.js", "Express", "Markdown", "GitHub Actions"]
+    },
+    {
+      "nome": "Aplicativo de Tasks",
+      "url": "https://github.com/MatheusGiovani633/Aplicativo-de-Tasks",
+      "descricao": "Aplicação de tarefas em arquitetura MVC, com Express e Handlebars.",
+      "tecnologias": ["Node.js", "Express", "Handlebars"]
+    },
+    {
+      "nome": "PlantAsking",
+      "url": "https://github.com/MatheusGiovani633/PlantAsking",
+      "descricao": "Aplicativo Android em Kotlin.",
+      "tecnologias": ["Kotlin", "Android"]
+    },
+    {
+      "nome": "Meu primeiro projeto React",
+      "url": "https://github.com/MatheusGiovani633/Meu-primeiro-projeto-React",
+      "descricao": "Primeiro projeto em React, feito depois do curso da Alura.",
+      "tecnologias": ["React", "JavaScript"]
+    },
+    {
+      "nome": "Pirâmide em OpenGL",
+      "url": "https://github.com/MatheusGiovani633/Piramide-em-OpenGl",
+      "descricao": "Renderização 3D de uma pirâmide com C++ e OpenGL.",
+      "tecnologias": ["C++", "OpenGL"]
     }
   ],
   "contato": {
     "email": "matheusgiovani633@gmail.com",
-    "cidade": "Porto Alegre, RS"
+    "cidade": "Porto Alegre, RS · aberto a vagas híbridas ou remotas"
   }
 }
