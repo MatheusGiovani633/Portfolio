@@ -143,7 +143,9 @@
       "GitHub Actions",
       "n8n",
       "Linux",
-      "AWS",
+      "AWS (EC2)",
+      "Oracle Cloud (OCI)",
+      "Cloudflare Tunnel (cloudflared)",
       "Zendesk",
       "Redmine"
     ],
