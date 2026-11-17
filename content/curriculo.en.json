@@ -1,7 +1,7 @@
 {
   "nome": "Matheus Giovani da Silva Pereira",
   "cargo": "QA Analyst and Developer",
-  "resumo": "IT professional with 4+ years of experience across development, support and software quality. I'm a QA at Dataweb Tecnologia, testing the ERP used by optical stores across Brazil, on desktop and web: I automate end-to-end tests with Playwright and Cypress, validate business rules directly in the database with SQL and make sure payment and customer-service integrations reach users in a stable state. I study Systems Analysis and Development at UniFTEC, where I'm building BattleZone as my capstone project and lead the team's quality strategy: no change reaches production without passing the tests in the pipeline. Open to opportunities in Porto Alegre, hybrid or remote.",
+  "resumo": "IT professional with 4+ years of experience across development, support and software quality. I'm a QA at Dataweb Tecnologia, testing the ERP used by optical stores across Brazil, on desktop and web: I automate end-to-end tests with Playwright and Cypress, validate business rules directly in the database with SQL and make sure payment and customer-service integrations reach users in a stable state. I study Systems Analysis and Development at UniFTEC, where I'm building BattleZone as my capstone project and define the team's quality strategy: no change reaches production without passing the tests in the pipeline. Open to opportunities in Porto Alegre, hybrid or remote.",
   "chamada": "QA Analyst and Developer. I make sure every release reaches its users tested and stable.",
   "destaques": [
     "tested",
@@ -187,7 +187,7 @@
       "nome": "BattleZone",
       "tipo": "web · capstone",
       "url": "https://battlezone.net.br",
-      "descricao": "My capstone project: a TCG tournament platform. Stores publish tournaments; players sign up, pay via PIX (Mercado Pago), submit their decklist and climb the ranking. I lead the team's quality strategy: every change goes through linting, unit tests, E2E tests and coverage on GitHub Actions, and only when everything is green does the pipeline run the migrations, deploy and check that the API is back up.",
+      "descricao": "My capstone project: a TCG tournament platform. Stores publish tournaments; players sign up, pay via PIX (Mercado Pago), submit their decklist and climb the ranking. I define the team's quality strategy: every change goes through linting, unit tests, E2E tests and coverage on GitHub Actions, and only when everything is green does the pipeline run the migrations, deploy and check that the API is back up.",
       "tecnologias": [
         "FastAPI",
         "PostgreSQL",
