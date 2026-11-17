@@ -1,0 +1,107 @@
+{
+  "nome": "Matheus Giovani da Silva Pereira",
+  "cargo": "Analista de Qualidade (QA) e Desenvolvedor",
+  "resumo": "Profissional de TI com mais de 4 anos de experiência somando desenvolvimento, suporte e qualidade de software. Hoje sou Analista de Qualidade na Dataweb Tecnologia, onde automatizo testes de ponta a ponta com Playwright e Cypress, valido regras de negócio direto no banco com SQL e testo integrações de pagamento. Em paralelo, desenvolvo o BattleZone, meu TCC em Análise e Desenvolvimento de Sistemas, e estudo .NET.",
+  "links": [
+    { "rotulo": "GitHub", "url": "https://github.com/MatheusGiovani633" },
+    { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210" },
+    { "rotulo": "BattleZone (TCC)", "url": "https://battlezone.net.br" }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Analista de Qualidade (QA)",
+      "empresa": "Dataweb Tecnologia",
+      "periodo": "2025 – atual",
+      "pontos": [
+        "Automatizo testes de ponta a ponta com Playwright e Cypress e fluxos de integração com n8n.",
+        "Valido relatórios e regras do ERP direto no banco, com SQL avançado, antes de cada liberação.",
+        "Testo APIs e integrações com Postman e Bruno, incluindo conciliadoras de pagamento (Fiserv e BRConsulting).",
+        "Planejo e registro os testes no Jira com o plugin QAlity e consultas JQL; executo testes de regressão, caixa branca e caixa preta entre versões.",
+        "Uso IA integrada ao projeto para acelerar testes e escrever documentação e changelogs.",
+        "Priorizo melhorias do ERP junto ao Product Owner, em times Scrum e Kanban."
+      ]
+    },
+    {
+      "cargo": "Analista de Suporte Técnico",
+      "empresa": "Dataweb Tecnologia",
+      "periodo": "2023 – 2024",
+      "pontos": [
+        "Atendi usuários por acesso remoto (AnyDesk) em emissão de notas fiscais, relatórios e rotinas do ERP.",
+        "Ajustei consultas customizadas vindas do desenvolvimento para cada cliente.",
+        "Administrei chamados no Zendesk respeitando os SLAs e reportei bugs e melhorias no Redmine.",
+        "Escrevi a documentação de configuração da base de ajuda (Zendesk Help Center)."
+      ]
+    },
+    {
+      "cargo": "Desenvolvedor Front-end Júnior",
+      "empresa": "Web2Lead",
+      "periodo": "2019 – 2020",
+      "pontos": [
+        "Desenvolvi sites para imobiliárias e revendas de carros com jQuery e PHP.",
+        "Adaptei layouts a partir de protótipos no Adobe XD, com páginas responsivas em Bootstrap.",
+        "Organizei as tarefas do time no Jira."
+      ]
+    },
+    {
+      "cargo": "Desenvolvimento web (Jovem Aprendiz)",
+      "empresa": "Cesmar / Thoughtworks",
+      "periodo": "2016 – 2017",
+      "pontos": [
+        "Participei de projetos desde a definição do escopo até a entrega.",
+        "Criei layouts com Bootstrap e PHP."
+      ]
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "FTEC Porto Alegre",
+      "periodo": "Em andamento",
+      "detalhe": "TCC: BattleZone, plataforma de torneios de card games para lojas."
+    },
+    {
+      "curso": "Técnico em Informática",
+      "instituicao": "Escola Técnica Cristo Redentor",
+      "periodo": "Concluído em 2019",
+      "detalhe": "Redes, hardware e manutenção de computadores; desenvolvimento web e mobile com design responsivo."
+    },
+    {
+      "curso": "Programação de Software",
+      "instituicao": "Polo Marista de Formação Tecnológica",
+      "periodo": "Concluído em 2017",
+      "detalhe": "Fundamentos de web (HTML, CSS e JavaScript) e banco de dados relacional."
+    }
+  ],
+  "habilidades": {
+    "Qualidade e testes": ["Playwright", "Cypress", "PyTest", "Postman", "Bruno", "Testes de regressão", "Testes de API", "Jira + QAlity (JQL)"],
+    "Linguagens": ["JavaScript", "TypeScript", "Python", "SQL", "C#", "PHP", "C++"],
+    "Front-end": ["React", "Next.js", "Angular", "Bootstrap", "HTML e CSS"],
+    "Back-end e dados": ["Node.js + Express", "FastAPI", "PostgreSQL", "Bancos relacionais", ".NET (estudando)"],
+    "Ferramentas e infra": ["Git", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
+    "Métodos": ["Scrum", "Kanban"]
+  },
+  "idiomas": [
+    "Português: nativo",
+    "Inglês: intermediário (B1)",
+    "Espanhol: básico",
+    "Japonês: básico"
+  ],
+  "projetos": [
+    {
+      "nome": "BattleZone",
+      "url": "https://battlezone.net.br",
+      "descricao": "Meu TCC: plataforma de torneios de TCG. As lojas publicam torneios; os jogadores se inscrevem, pagam por PIX (Mercado Pago), enviam a decklist e sobem no ranking.",
+      "tecnologias": ["FastAPI", "PostgreSQL", "React", "TypeScript", "AWS", "Mercado Pago"]
+    },
+    {
+      "nome": "Este site",
+      "url": "https://github.com/MatheusGiovani633/Portfolio",
+      "descricao": "Meu currículo e blog, em Node.js + Express, com os posts escritos em Markdown.",
+      "tecnologias": ["Node.js", "Express", "Markdown"]
+    }
+  ],
+  "contato": {
+    "email": "matheusgiovani633@gmail.com",
+    "cidade": "Porto Alegre, RS"
+  }
+}

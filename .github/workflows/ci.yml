@@ -1,0 +1,78 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Testes das rotas
+        run: npm test
+
+      # Falha se alguma dependência de produção tiver vulnerabilidade alta ou crítica.
+      - name: Auditoria de dependências
+        run: npm audit --omit=dev --audit-level=high
+
+  deploy:
+    # Só publica o que passou nos testes, e só em push na main (nunca em PR).
+    needs: testes
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Um deploy por vez: dois pushes seguidos não se atropelam na VM.
+    concurrency:
+      group: deploy-producao
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Chave e servidor conhecido
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      # A chave só consegue rodar o deploy.sh da VM, que recebe o código em tar.
+      - name: Publicar na VM
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          git archive --format=tar HEAD | ssh -T -o BatchMode=yes -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes -i ~/.ssh/deploy_key "deploy@$DEPLOY_HOST"
+
+      - name: Conferir o site no ar
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          for i in 1 2 3 4 5 6; do
+            curl -fsS --max-time 10 "http://$DEPLOY_HOST/health" && exit 0
+            sleep 5
+          done
+          echo "O site não respondeu depois do deploy." >&2
+          exit 1
+
+      - name: Apagar a chave do runner
+        if: always()
+        run: rm -f ~/.ssh/deploy_key
