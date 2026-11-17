@@ -1,7 +1,7 @@
 {
   "nome": "Matheus Giovani da Silva Pereira",
   "cargo": "Analista de Qualidade (QA) e Desenvolvedor",
-  "resumo": "Profissional de TI com mais de 4 anos de experiência somando desenvolvimento, suporte e qualidade de software. Sou QA na Dataweb Tecnologia, onde testo o ERP usado por óticas de todo o Brasil, na versão desktop e na web: automatizo testes de ponta a ponta com Playwright e Cypress, valido regras de negócio direto no banco com SQL e garanto que integrações de pagamento e de atendimento cheguem estáveis a quem usa. Estudo Análise e Desenvolvimento de Sistemas na UniFTEC, onde desenvolvo o BattleZone como TCC. Aberto a oportunidades em Porto Alegre, no modelo híbrido ou remoto.",
+  "resumo": "Profissional de TI com mais de 4 anos de experiência somando desenvolvimento, suporte e qualidade de software. Sou QA na Dataweb Tecnologia, onde testo o ERP usado por óticas de todo o Brasil, na versão desktop e na web: automatizo testes de ponta a ponta com Playwright e Cypress, valido regras de negócio direto no banco com SQL e garanto que integrações de pagamento e de atendimento cheguem estáveis a quem usa. Estudo Análise e Desenvolvimento de Sistemas na UniFTEC, onde desenvolvo o BattleZone como TCC e lidero a estratégia de qualidade do time: nenhuma mudança vai para produção sem passar pelos testes na pipeline. Aberto a oportunidades em Porto Alegre, no modelo híbrido ou remoto.",
   "links": [
     {
       "rotulo": "GitHub",
@@ -23,7 +23,7 @@
       "periodo": "2024 – atual (entrei no time de testes como Assistente de Testes Júnior)",
       "pontos": [
         "Testo cada entrega do ERP antes de ela chegar às óticas: recebo a versão de teste da tarefa, sigo o roteiro do desenvolvedor, testo os casos de borda e registro o resultado com evidências no Jira (QAlity).",
-        "Automatizo testes de ponta a ponta com Playwright e Cypress e testo APIs e integrações com Postman e Bruno.",
+        "Automatizo testes de ponta a ponta com Playwright e Cypress, que rodam na pipeline de CI a cada entrega, e testo APIs e integrações com Postman e Bruno.",
         "Valido no banco de dados, com SQL, o que a tela mostra: estado antes e depois de cada operação, relatórios e regras fiscais.",
         "Testo integrações de pagamento e conciliação, como PIX, TEF e as conciliadoras Fiserv e BRConsulting.",
         "Fui QA da nova Central de Atendimento do WhatsApp no módulo CRM: mensagens que chegam em segundos, não se perdem se o sistema cair e nunca aparecem para o cliente errado.",
@@ -97,6 +97,8 @@
       "xUnit",
       "Postman",
       "Bruno",
+      "Testes na pipeline de CI (GitHub Actions)",
+      "Estratégia de testes",
       "Testes de regressão",
       "Testes de API",
       "Jira + QAlity (JQL)",
@@ -160,14 +162,16 @@
     {
       "nome": "BattleZone",
       "url": "https://battlezone.net.br",
-      "descricao": "Meu TCC: plataforma de torneios de TCG. As lojas publicam torneios; os jogadores se inscrevem, pagam por PIX (Mercado Pago), enviam a decklist e sobem no ranking.",
+      "descricao": "Meu TCC: plataforma de torneios de TCG. As lojas publicam torneios; os jogadores se inscrevem, pagam por PIX (Mercado Pago), enviam a decklist e sobem no ranking. Lidero a estratégia de qualidade do time: cada mudança passa por lint, testes unitários, testes E2E e cobertura no GitHub Actions, e só com tudo verde a pipeline roda as migrations, faz o deploy e confere que a API voltou.",
       "tecnologias": [
         "FastAPI",
         "PostgreSQL",
         "React",
         "TypeScript",
         "AWS",
-        "Mercado Pago"
+        "Mercado Pago",
+        "PyTest",
+        "GitHub Actions"
       ],
       "tipo": "web · TCC"
     },

@@ -1,20 +1,44 @@
 {
   "nome": "Matheus Giovani da Silva Pereira",
   "cargo": "QAアナリスト／開発者",
-  "resumo": "開発・サポート・品質保証を合わせて4年以上のIT経験があります。現在はDataweb TecnologiaのQAとして、ブラジル全国の眼鏡店で使われているERP（デスクトップ版とWeb版）のテストを担当しています。PlaywrightとCypressによるE2Eテストの自動化、SQLによるデータベース上での業務ルールの検証を行い、決済や顧客対応の連携機能が安定した状態でユーザーに届くことを確認しています。UniFTECでシステム分析・開発を学びながら、卒業制作としてBattleZoneを開発中です。ポルトアレグレでのハイブリッド勤務、またはリモートでの仕事を探しています。",
+  "resumo": "開発・サポート・品質保証を合わせて4年以上のIT経験があります。現在はDataweb TecnologiaのQAとして、ブラジル全国の眼鏡店で使われているERP（デスクトップ版とWeb版）のテストを担当しています。PlaywrightとCypressによるE2Eテストの自動化、SQLによるデータベース上での業務ルールの検証を行い、決済や顧客対応の連携機能が安定した状態でユーザーに届くことを確認しています。UniFTECでシステム分析・開発を学びながら、卒業制作としてBattleZoneを開発し、チームの品質戦略をリードしています。パイプラインのテストに合格しない変更は本番環境に反映されません。ポルトアレグレでのハイブリッド勤務、またはリモートでの仕事を探しています。",
   "chamada": "QAアナリスト兼開発者。すべてのリリースを、テスト済みで安定した状態でユーザーに届けます。",
-  "destaques": ["テスト済み", "安定した"],
+  "destaques": [
+    "テスト済み",
+    "安定した"
+  ],
   "disponibilidade": "求職中 · ポルトアレグレ · ハイブリッド／リモート",
   "ficha": [
-    { "k": "現在", "v": "Dataweb · QA" },
-    { "k": "学歴", "v": "UniFTEC · システム開発" },
-    { "k": "経験", "v": "IT歴4年以上" },
-    { "k": "言語", "v": "PT · EN B1 · ES · JA" }
+    {
+      "k": "現在",
+      "v": "Dataweb · QA"
+    },
+    {
+      "k": "学歴",
+      "v": "UniFTEC · システム開発"
+    },
+    {
+      "k": "経験",
+      "v": "IT歴4年以上"
+    },
+    {
+      "k": "言語",
+      "v": "PT · EN B1 · ES · JA"
+    }
   ],
   "links": [
-    { "rotulo": "GitHub", "url": "https://github.com/MatheusGiovani633" },
-    { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210" },
-    { "rotulo": "BattleZone（卒業制作）", "url": "https://battlezone.net.br" }
+    {
+      "rotulo": "GitHub",
+      "url": "https://github.com/MatheusGiovani633"
+    },
+    {
+      "rotulo": "LinkedIn",
+      "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210"
+    },
+    {
+      "rotulo": "BattleZone（卒業制作）",
+      "url": "https://battlezone.net.br"
+    }
   ],
   "experiencia": [
     {
@@ -23,7 +47,7 @@
       "periodo": "2024年 – 現在（ジュニアテストアシスタントとしてテストチームに参加）",
       "pontos": [
         "ERPの各リリースを眼鏡店に届く前にテストしています。タスクごとのテスト版を受け取り、開発者のテスト手順に沿って境界値のケースも確認し、結果を証跡とともにJira（QAlity）に記録します。",
-        "PlaywrightとCypressでE2Eテストを自動化し、PostmanとBrunoでAPIや連携機能をテストしています。",
+        "PlaywrightとCypressでE2Eテストを自動化し、リリースごとにCIパイプラインで実行しています。PostmanとBrunoでAPIや連携機能もテストしています。",
         "画面に表示される内容を、SQLでデータベース上でも検証します（各操作の前後の状態、帳票、税務ルールなど）。",
         "PIX、カード決済端末（TEF）、FiservやBRConsultingの照合サービスなど、決済・照合機能の連携をテストしています。",
         "CRMモジュールの新しいWhatsApp対応センターのQAを担当しました。メッセージは数秒で届き、システムが停止しても失われず、別の顧客に表示されることもありません。",
@@ -90,13 +114,67 @@
     }
   ],
   "habilidades": {
-    "品質保証・テスト": ["Playwright", "Cypress", "PyTest", "xUnit", "Postman", "Bruno", "回帰テスト", "APIテスト", "Jira + QAlity (JQL)", "QAのためのAIエージェント"],
-    "プログラミング言語": ["JavaScript", "TypeScript", "C#", "Python", "Kotlin", "SQL", "PHP", "C++"],
-    "バックエンド・データ": ["ASP.NET Core (.NET 8)", "Entity Framework Core", "Node.js + Express", "FastAPI", "MySQL", "PostgreSQL", "Sequelize", "Swagger / OpenAPI"],
-    "フロントエンド": ["React", "Next.js", "Angular", "Handlebars", "Bootstrap", "HTML・CSS"],
-    "モバイル・AI": ["Kotlin + Jetpack Compose", "CameraX", "Material 3", "Google Gemini（生成AI）"],
-    "ツール・インフラ": ["Git", "GitHub Actions", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
-    "開発手法": ["スクラム", "カンバン"]
+    "品質保証・テスト": [
+      "Playwright",
+      "Cypress",
+      "PyTest",
+      "xUnit",
+      "Postman",
+      "Bruno",
+      "CIパイプラインでのテスト（GitHub Actions）",
+      "テスト戦略",
+      "回帰テスト",
+      "APIテスト",
+      "Jira + QAlity (JQL)",
+      "QAのためのAIエージェント"
+    ],
+    "プログラミング言語": [
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "Python",
+      "Kotlin",
+      "SQL",
+      "PHP",
+      "C++"
+    ],
+    "バックエンド・データ": [
+      "ASP.NET Core (.NET 8)",
+      "Entity Framework Core",
+      "Node.js + Express",
+      "FastAPI",
+      "MySQL",
+      "PostgreSQL",
+      "Sequelize",
+      "Swagger / OpenAPI"
+    ],
+    "フロントエンド": [
+      "React",
+      "Next.js",
+      "Angular",
+      "Handlebars",
+      "Bootstrap",
+      "HTML・CSS"
+    ],
+    "モバイル・AI": [
+      "Kotlin + Jetpack Compose",
+      "CameraX",
+      "Material 3",
+      "Google Gemini（生成AI）"
+    ],
+    "ツール・インフラ": [
+      "Git",
+      "GitHub Actions",
+      "n8n",
+      "Linux",
+      "AWS",
+      "Zendesk",
+      "Redmine"
+    ],
+    "開発手法": [
+      "スクラム",
+      "カンバン"
+    ]
   },
   "idiomas": [
     "ポルトガル語：ネイティブ",
@@ -109,36 +187,68 @@
       "nome": "BattleZone",
       "tipo": "web · 卒業制作",
       "url": "https://battlezone.net.br",
-      "descricao": "卒業制作のカードゲーム大会プラットフォーム。ショップが大会を公開し、プレイヤーはエントリー、PIX（Mercado Pago）での支払い、デッキリストの提出を行い、ランキングを競います。",
-      "tecnologias": ["FastAPI", "PostgreSQL", "React", "TypeScript", "AWS", "Mercado Pago"]
+      "descricao": "卒業制作のカードゲーム大会プラットフォーム。ショップが大会を公開し、プレイヤーはエントリー、PIX（Mercado Pago）での支払い、デッキリストの提出を行い、ランキングを競います。チームの品質戦略をリードしています。すべての変更はGitHub Actions上でLint、ユニットテスト、E2Eテスト、カバレッジを通過し、すべて成功した場合のみパイプラインがマイグレーション、デプロイ、APIの稼働確認を行います。",
+      "tecnologias": [
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "AWS",
+        "Mercado Pago",
+        "PyTest",
+        "GitHub Actions"
+      ]
     },
     {
       "nome": "Backend Generators",
       "tipo": "api",
       "url": "https://github.com/MatheusGiovani633/BackendGenerators",
       "descricao": "眼鏡業界向けのテストデータを生成する.NET 8のAPI。個人・法人、医師、サービス注文に紐づく眼鏡処方箋を生成します。BCryptによるログインとリフレッシュトークン、マイグレーション付きのMySQL、Swaggerによるドキュメント、コントローラー・サービス・リポジトリの層構成。",
-      "tecnologias": ["C#", "ASP.NET Core", "EF Core", "MySQL", "Swagger"]
+      "tecnologias": [
+        "C#",
+        "ASP.NET Core",
+        "EF Core",
+        "MySQL",
+        "Swagger"
+      ]
     },
     {
       "nome": "PlantAsking",
       "tipo": "android",
       "url": "https://github.com/MatheusGiovani633/PlantAsking",
       "descricao": "カメラで植物をスキャンし、生成AI（Google Gemini）で健康状態や「気分」を分析してお世話のアドバイスを表示し、植物とチャットもできるAndroidアプリ。",
-      "tecnologias": ["Kotlin", "Jetpack Compose", "CameraX", "Gemini", "MVVM"]
+      "tecnologias": [
+        "Kotlin",
+        "Jetpack Compose",
+        "CameraX",
+        "Gemini",
+        "MVVM"
+      ]
     },
     {
       "nome": "Thoughts",
       "tipo": "web",
       "url": "https://github.com/MatheusGiovani633/Thoughts-estudos",
       "descricao": "セッション認証付きの「つぶやき」SNS。投稿の作成・編集・削除ができるダッシュボードと、検索付きの公開ページ。MVCアーキテクチャ。",
-      "tecnologias": ["Node.js", "Express", "Handlebars", "Sequelize", "MySQL"]
+      "tecnologias": [
+        "Node.js",
+        "Express",
+        "Handlebars",
+        "Sequelize",
+        "MySQL"
+      ]
     },
     {
       "nome": "このサイト",
       "tipo": "web",
       "url": "https://github.com/MatheusGiovani633/Portfolio",
       "descricao": "Node.js + Expressで作った履歴書とブログ。記事はMarkdownで書き、自動テストとGitHub Actionsによる継続的デプロイを備えています。",
-      "tecnologias": ["Node.js", "Express", "Markdown", "GitHub Actions"]
+      "tecnologias": [
+        "Node.js",
+        "Express",
+        "Markdown",
+        "GitHub Actions"
+      ]
     }
   ],
   "contato": {
