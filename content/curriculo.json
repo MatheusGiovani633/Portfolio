@@ -3,9 +3,18 @@
   "cargo": "Analista de Qualidade (QA) e Desenvolvedor",
   "resumo": "Profissional de TI com mais de 4 anos de experiência somando desenvolvimento, suporte e qualidade de software. Sou QA na Dataweb Tecnologia, onde testo o ERP usado por óticas de todo o Brasil, na versão desktop e na web: automatizo testes de ponta a ponta com Playwright e Cypress, valido regras de negócio direto no banco com SQL e garanto que integrações de pagamento e de atendimento cheguem estáveis a quem usa. Estudo Análise e Desenvolvimento de Sistemas na UniFTEC, onde desenvolvo o BattleZone como TCC. Aberto a oportunidades em Porto Alegre, no modelo híbrido ou remoto.",
   "links": [
-    { "rotulo": "GitHub", "url": "https://github.com/MatheusGiovani633" },
-    { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210" },
-    { "rotulo": "BattleZone (TCC)", "url": "https://battlezone.net.br" }
+    {
+      "rotulo": "GitHub",
+      "url": "https://github.com/MatheusGiovani633"
+    },
+    {
+      "rotulo": "LinkedIn",
+      "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210"
+    },
+    {
+      "rotulo": "BattleZone (TCC)",
+      "url": "https://battlezone.net.br"
+    }
   ],
   "experiencia": [
     {
@@ -81,12 +90,65 @@
     }
   ],
   "habilidades": {
-    "Qualidade e testes": ["Playwright", "Cypress", "PyTest", "Postman", "Bruno", "Testes de regressão", "Testes de API", "Jira + QAlity (JQL)", "Agentes de IA para QA"],
-    "Linguagens": ["JavaScript", "TypeScript", "Python", "SQL", "C#", "Kotlin", "PHP", "C++"],
-    "Front-end": ["React", "Next.js", "Angular", "Bootstrap", "HTML e CSS"],
-    "Back-end e dados": ["Node.js + Express", "FastAPI", "PostgreSQL", "Bancos relacionais", ".NET (estudando)"],
-    "Ferramentas e infra": ["Git", "GitHub Actions", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
-    "Métodos": ["Scrum", "Kanban"]
+    "Qualidade e testes": [
+      "Playwright",
+      "Cypress",
+      "PyTest",
+      "xUnit",
+      "Postman",
+      "Bruno",
+      "Testes de regressão",
+      "Testes de API",
+      "Jira + QAlity (JQL)",
+      "Agentes de IA para QA"
+    ],
+    "Linguagens": [
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "Python",
+      "Kotlin",
+      "SQL",
+      "PHP",
+      "C++"
+    ],
+    "Back-end e dados": [
+      "ASP.NET Core (.NET 8)",
+      "Entity Framework Core",
+      "Node.js + Express",
+      "FastAPI",
+      "MySQL",
+      "PostgreSQL",
+      "Sequelize",
+      "Swagger / OpenAPI"
+    ],
+    "Front-end": [
+      "React",
+      "Next.js",
+      "Angular",
+      "Handlebars",
+      "Bootstrap",
+      "HTML e CSS"
+    ],
+    "Mobile e IA": [
+      "Kotlin + Jetpack Compose",
+      "CameraX",
+      "Material 3",
+      "Google Gemini (IA generativa)"
+    ],
+    "Ferramentas e infra": [
+      "Git",
+      "GitHub Actions",
+      "n8n",
+      "Linux",
+      "AWS",
+      "Zendesk",
+      "Redmine"
+    ],
+    "Métodos": [
+      "Scrum",
+      "Kanban"
+    ]
   },
   "idiomas": [
     "Português: nativo",
@@ -99,37 +161,61 @@
       "nome": "BattleZone",
       "url": "https://battlezone.net.br",
       "descricao": "Meu TCC: plataforma de torneios de TCG. As lojas publicam torneios; os jogadores se inscrevem, pagam por PIX (Mercado Pago), enviam a decklist e sobem no ranking.",
-      "tecnologias": ["FastAPI", "PostgreSQL", "React", "TypeScript", "AWS", "Mercado Pago"]
+      "tecnologias": [
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "AWS",
+        "Mercado Pago"
+      ]
+    },
+    {
+      "nome": "Backend Generators",
+      "url": "https://github.com/MatheusGiovani633/BackendGenerators",
+      "descricao": "API em .NET 8 que gera massa de dados de teste para o ramo óptico: pessoas físicas e jurídicas, médicos e receitas oftalmológicas ligadas à ordem de serviço. Login com senha em BCrypt e refresh token, banco MySQL com migrations e documentação no Swagger, em camadas de controllers, services e repositories.",
+      "tecnologias": [
+        "C#",
+        "ASP.NET Core",
+        "EF Core",
+        "MySQL",
+        "Swagger"
+      ]
+    },
+    {
+      "nome": "PlantAsking",
+      "url": "https://github.com/MatheusGiovani633/PlantAsking",
+      "descricao": "App Android que escaneia uma planta com a câmera, analisa a saúde e o \"humor\" dela com IA generativa (Google Gemini), mostra recomendações de cuidado e deixa você conversar com a planta num chat.",
+      "tecnologias": [
+        "Kotlin",
+        "Jetpack Compose",
+        "CameraX",
+        "Gemini",
+        "MVVM"
+      ]
+    },
+    {
+      "nome": "Thoughts",
+      "url": "https://github.com/MatheusGiovani633/Thoughts-estudos",
+      "descricao": "Rede de pensamentos com cadastro e login por sessão, painel para criar, editar e excluir pensamentos e página pública com busca. Arquitetura MVC.",
+      "tecnologias": [
+        "Node.js",
+        "Express",
+        "Handlebars",
+        "Sequelize",
+        "MySQL"
+      ]
     },
     {
       "nome": "Este site",
       "url": "https://github.com/MatheusGiovani633/Portfolio",
       "descricao": "Meu currículo e blog, em Node.js + Express, com os posts escritos em Markdown, testes automatizados e deploy contínuo pelo GitHub Actions.",
-      "tecnologias": ["Node.js", "Express", "Markdown", "GitHub Actions"]
-    },
-    {
-      "nome": "Aplicativo de Tasks",
-      "url": "https://github.com/MatheusGiovani633/Aplicativo-de-Tasks",
-      "descricao": "Aplicação de tarefas em arquitetura MVC, com Express e Handlebars.",
-      "tecnologias": ["Node.js", "Express", "Handlebars"]
-    },
-    {
-      "nome": "PlantAsking",
-      "url": "https://github.com/MatheusGiovani633/PlantAsking",
-      "descricao": "Aplicativo Android em Kotlin.",
-      "tecnologias": ["Kotlin", "Android"]
-    },
-    {
-      "nome": "Meu primeiro projeto React",
-      "url": "https://github.com/MatheusGiovani633/Meu-primeiro-projeto-React",
-      "descricao": "Primeiro projeto em React, feito depois do curso da Alura.",
-      "tecnologias": ["React", "JavaScript"]
-    },
-    {
-      "nome": "Pirâmide em OpenGL",
-      "url": "https://github.com/MatheusGiovani633/Piramide-em-OpenGl",
-      "descricao": "Renderização 3D de uma pirâmide com C++ e OpenGL.",
-      "tecnologias": ["C++", "OpenGL"]
+      "tecnologias": [
+        "Node.js",
+        "Express",
+        "Markdown",
+        "GitHub Actions"
+      ]
     }
   ],
   "contato": {
