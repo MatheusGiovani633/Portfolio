@@ -1,0 +1,149 @@
+{
+  "nome": "Matheus Giovani da Silva Pereira",
+  "cargo": "QAアナリスト／開発者",
+  "resumo": "開発・サポート・品質保証を合わせて4年以上のIT経験があります。現在はDataweb TecnologiaのQAとして、ブラジル全国の眼鏡店で使われているERP（デスクトップ版とWeb版）のテストを担当しています。PlaywrightとCypressによるE2Eテストの自動化、SQLによるデータベース上での業務ルールの検証を行い、決済や顧客対応の連携機能が安定した状態でユーザーに届くことを確認しています。UniFTECでシステム分析・開発を学びながら、卒業制作としてBattleZoneを開発中です。ポルトアレグレでのハイブリッド勤務、またはリモートでの仕事を探しています。",
+  "chamada": "QAアナリスト兼開発者。すべてのリリースを、テスト済みで安定した状態でユーザーに届けます。",
+  "destaques": ["テスト済み", "安定した"],
+  "disponibilidade": "求職中 · ポルトアレグレ · ハイブリッド／リモート",
+  "ficha": [
+    { "k": "現在", "v": "Dataweb · QA" },
+    { "k": "学歴", "v": "UniFTEC · システム開発" },
+    { "k": "経験", "v": "IT歴4年以上" },
+    { "k": "言語", "v": "PT · EN B1 · ES · JA" }
+  ],
+  "links": [
+    { "rotulo": "GitHub", "url": "https://github.com/MatheusGiovani633" },
+    { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210" },
+    { "rotulo": "BattleZone（卒業制作）", "url": "https://battlezone.net.br" }
+  ],
+  "experiencia": [
+    {
+      "cargo": "QAアナリスト",
+      "empresa": "Dataweb Tecnologia · 眼鏡業界向けERP",
+      "periodo": "2024年 – 現在（ジュニアテストアシスタントとしてテストチームに参加）",
+      "pontos": [
+        "ERPの各リリースを眼鏡店に届く前にテストしています。タスクごとのテスト版を受け取り、開発者のテスト手順に沿って境界値のケースも確認し、結果を証跡とともにJira（QAlity）に記録します。",
+        "PlaywrightとCypressでE2Eテストを自動化し、PostmanとBrunoでAPIや連携機能をテストしています。",
+        "画面に表示される内容を、SQLでデータベース上でも検証します（各操作の前後の状態、帳票、税務ルールなど）。",
+        "PIX、カード決済端末（TEF）、FiservやBRConsultingの照合サービスなど、決済・照合機能の連携をテストしています。",
+        "CRMモジュールの新しいWhatsApp対応センターのQAを担当しました。メッセージは数秒で届き、システムが停止しても失われず、別の顧客に表示されることもありません。",
+        "AIエージェントを活用してテスト実行、キューの振り分け、ドキュメント作成を効率化し、n8nで業務プロセスを自動化しています。",
+        "眼鏡店向けに新機能のトレーニング動画を収録し、ドキュメントや変更履歴を作成しています。",
+        "プロダクトオーナーと改善計画に参加し、スクラムやカンバンのチームで働いています。"
+      ]
+    },
+    {
+      "cargo": "テクニカルサポートアナリスト",
+      "empresa": "Dataweb Tecnologia",
+      "periodo": "2023年 – 2024年",
+      "pontos": [
+        "リモート（AnyDesk）で眼鏡店を支援し、請求書の発行、帳票、ERPの各業務をサポートしました。",
+        "開発から届いた顧客ごとのカスタムクエリを調整しました。",
+        "ZendeskでSLAを守りながらチケットを管理し、Redmineでバグや改善要望を報告しました。",
+        "ヘルプセンター（Zendesk Help Center）の設定ドキュメントを作成しました。"
+      ]
+    },
+    {
+      "cargo": "ジュニアフロントエンド開発者",
+      "empresa": "Web2Lead",
+      "periodo": "2019年 – 2020年",
+      "pontos": [
+        "jQueryとPHPで不動産会社や自動車販売店のWebサイトを開発しました。",
+        "Adobe XDのプロトタイプをもとに、Bootstrapでレスポンシブなページを作成しました。",
+        "Jiraでチームのタスクを管理しました。"
+      ]
+    },
+    {
+      "cargo": "Web開発（見習い）",
+      "empresa": "Cesmar / Thoughtworks",
+      "periodo": "2016年 – 2017年",
+      "pontos": [
+        "要件定義から納品までのプロジェクトに参加しました。",
+        "BootstrapとPHPでレイアウトを作成しました。"
+      ]
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "システム分析・開発",
+      "instituicao": "UniFTEC ポルトアレグレ校",
+      "periodo": "在学中",
+      "detalhe": "卒業制作：BattleZone（カードゲームショップ向けの大会運営プラットフォーム）"
+    },
+    {
+      "curso": "React：JavaScriptによる開発",
+      "instituicao": "Alura",
+      "periodo": "修了",
+      "detalhe": ""
+    },
+    {
+      "curso": "情報技術科",
+      "instituicao": "Escola Técnica Cristo Redentor（技術学校）",
+      "periodo": "2019年修了",
+      "detalhe": "ネットワーク、ハードウェア、PCメンテナンス、レスポンシブなWeb・モバイル開発"
+    },
+    {
+      "curso": "ソフトウェアプログラミング",
+      "instituicao": "Polo Marista de Formação Tecnológica",
+      "periodo": "2017年修了",
+      "detalhe": "Webの基礎（HTML・CSS・JavaScript）とリレーショナルデータベース"
+    }
+  ],
+  "habilidades": {
+    "品質保証・テスト": ["Playwright", "Cypress", "PyTest", "xUnit", "Postman", "Bruno", "回帰テスト", "APIテスト", "Jira + QAlity (JQL)", "QAのためのAIエージェント"],
+    "プログラミング言語": ["JavaScript", "TypeScript", "C#", "Python", "Kotlin", "SQL", "PHP", "C++"],
+    "バックエンド・データ": ["ASP.NET Core (.NET 8)", "Entity Framework Core", "Node.js + Express", "FastAPI", "MySQL", "PostgreSQL", "Sequelize", "Swagger / OpenAPI"],
+    "フロントエンド": ["React", "Next.js", "Angular", "Handlebars", "Bootstrap", "HTML・CSS"],
+    "モバイル・AI": ["Kotlin + Jetpack Compose", "CameraX", "Material 3", "Google Gemini（生成AI）"],
+    "ツール・インフラ": ["Git", "GitHub Actions", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
+    "開発手法": ["スクラム", "カンバン"]
+  },
+  "idiomas": [
+    "ポルトガル語：ネイティブ",
+    "英語：中級（B1）",
+    "スペイン語：初級",
+    "日本語：初級"
+  ],
+  "projetos": [
+    {
+      "nome": "BattleZone",
+      "tipo": "web · 卒業制作",
+      "url": "https://battlezone.net.br",
+      "descricao": "卒業制作のカードゲーム大会プラットフォーム。ショップが大会を公開し、プレイヤーはエントリー、PIX（Mercado Pago）での支払い、デッキリストの提出を行い、ランキングを競います。",
+      "tecnologias": ["FastAPI", "PostgreSQL", "React", "TypeScript", "AWS", "Mercado Pago"]
+    },
+    {
+      "nome": "Backend Generators",
+      "tipo": "api",
+      "url": "https://github.com/MatheusGiovani633/BackendGenerators",
+      "descricao": "眼鏡業界向けのテストデータを生成する.NET 8のAPI。個人・法人、医師、サービス注文に紐づく眼鏡処方箋を生成します。BCryptによるログインとリフレッシュトークン、マイグレーション付きのMySQL、Swaggerによるドキュメント、コントローラー・サービス・リポジトリの層構成。",
+      "tecnologias": ["C#", "ASP.NET Core", "EF Core", "MySQL", "Swagger"]
+    },
+    {
+      "nome": "PlantAsking",
+      "tipo": "android",
+      "url": "https://github.com/MatheusGiovani633/PlantAsking",
+      "descricao": "カメラで植物をスキャンし、生成AI（Google Gemini）で健康状態や「気分」を分析してお世話のアドバイスを表示し、植物とチャットもできるAndroidアプリ。",
+      "tecnologias": ["Kotlin", "Jetpack Compose", "CameraX", "Gemini", "MVVM"]
+    },
+    {
+      "nome": "Thoughts",
+      "tipo": "web",
+      "url": "https://github.com/MatheusGiovani633/Thoughts-estudos",
+      "descricao": "セッション認証付きの「つぶやき」SNS。投稿の作成・編集・削除ができるダッシュボードと、検索付きの公開ページ。MVCアーキテクチャ。",
+      "tecnologias": ["Node.js", "Express", "Handlebars", "Sequelize", "MySQL"]
+    },
+    {
+      "nome": "このサイト",
+      "tipo": "web",
+      "url": "https://github.com/MatheusGiovani633/Portfolio",
+      "descricao": "Node.js + Expressで作った履歴書とブログ。記事はMarkdownで書き、自動テストとGitHub Actionsによる継続的デプロイを備えています。",
+      "tecnologias": ["Node.js", "Express", "Markdown", "GitHub Actions"]
+    }
+  ],
+  "contato": {
+    "email": "matheusgiovani633@gmail.com",
+    "whatsapp": "5551992494038",
+    "cidade": "ブラジル・ポルトアレグレ · ハイブリッド／リモート可"
+  }
+}

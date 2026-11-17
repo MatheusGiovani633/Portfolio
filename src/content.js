@@ -3,8 +3,10 @@ import path from 'node:path'
 
 import { marked } from 'marked'
 
-export async function loadCurriculo(dir) {
-  return JSON.parse(await readFile(path.join(dir, 'curriculo.json'), 'utf8'))
+// Português em curriculo.json; os outros idiomas em curriculo.<idioma>.json.
+export async function loadCurriculo(dir, lang = 'pt') {
+  const file = lang === 'pt' ? 'curriculo.json' : `curriculo.${lang}.json`
+  return JSON.parse(await readFile(path.join(dir, file), 'utf8'))
 }
 
 // Só letras, números e hífen: o slug vira nome de arquivo, então "../" nunca passa.

@@ -1,0 +1,36 @@
+// Textos da interface em cada idioma. O conteúdo do currículo fica em content/curriculo*.json.
+export const LANGS = {
+  pt: {
+    html: 'pt-BR', path: '/', label: 'PT', name: 'Português',
+    title: 'Currículo', skip: 'Pular para o conteúdo', langNav: 'Idioma',
+    nav: { experiencia: 'Experiência', projetos: 'Projetos', stack: 'Stack', blog: 'Blog' },
+    contact: 'Contato', cta: 'Vamos conversar', photo: 'Foto de',
+    sections: { experiencia: 'Experiência', projetos: 'Projetos', stack: 'Formação e stack', blog: 'Blog' },
+    languages: 'Idiomas', allPosts: 'Ver todos os posts →', postsNote: '',
+    footer: ['Vamos ', 'conversar', '.'],
+    toDark: 'Mudar para o modo escuro', toLight: 'Mudar para o modo claro',
+    waText: 'Olá, Matheus! Vi seu currículo e gostaria de conversar.',
+  },
+  en: {
+    html: 'en', path: '/en', label: 'EN', name: 'English',
+    title: 'Résumé', skip: 'Skip to content', langNav: 'Language',
+    nav: { experiencia: 'Experience', projetos: 'Projects', stack: 'Stack', blog: 'Blog' },
+    contact: 'Contact', cta: 'Get in touch', photo: 'Photo of',
+    sections: { experiencia: 'Experience', projetos: 'Projects', stack: 'Education & stack', blog: 'Blog' },
+    languages: 'Languages', allPosts: 'All posts →', postsNote: 'Posts are written in Portuguese.',
+    footer: ["Let's ", 'talk', '.'],
+    toDark: 'Switch to dark mode', toLight: 'Switch to light mode',
+    waText: 'Hi Matheus! I saw your résumé and would like to talk.',
+  },
+  ja: {
+    html: 'ja', path: '/ja', label: '日本語', name: '日本語',
+    title: '履歴書', skip: '本文へスキップ', langNav: '言語',
+    nav: { experiencia: '職務経歴', projetos: 'プロジェクト', stack: 'スキル', blog: 'ブログ' },
+    contact: 'お問い合わせ', cta: '連絡する', photo: '写真：',
+    sections: { experiencia: '職務経歴', projetos: 'プロジェクト', stack: '学歴とスキル', blog: 'ブログ' },
+    languages: '言語', allPosts: 'すべての記事 →', postsNote: '記事はポルトガル語で書かれています。',
+    footer: ['', 'お気軽に', 'ご連絡ください。'],
+    toDark: 'ダークモードに切り替え', toLight: 'ライトモードに切り替え',
+    waText: 'こんにちは、マテウスさん。履歴書を拝見し、お話ししたいと思いご連絡しました。',
+  },
+}

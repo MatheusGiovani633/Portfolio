@@ -1,0 +1,149 @@
+{
+  "nome": "Matheus Giovani da Silva Pereira",
+  "cargo": "QA Analyst and Developer",
+  "resumo": "IT professional with 4+ years of experience across development, support and software quality. I'm a QA at Dataweb Tecnologia, testing the ERP used by optical stores across Brazil, on desktop and web: I automate end-to-end tests with Playwright and Cypress, validate business rules directly in the database with SQL and make sure payment and customer-service integrations reach users in a stable state. I study Systems Analysis and Development at UniFTEC, where I'm building BattleZone as my capstone project. Open to opportunities in Porto Alegre, hybrid or remote.",
+  "chamada": "QA Analyst and Developer. I make sure every release reaches its users tested and stable.",
+  "destaques": ["tested", "stable"],
+  "disponibilidade": "Available · Porto Alegre · hybrid or remote",
+  "ficha": [
+    { "k": "now", "v": "QA at Dataweb" },
+    { "k": "education", "v": "Systems Dev. · UniFTEC" },
+    { "k": "experience", "v": "4+ years in IT" },
+    { "k": "languages", "v": "PT · EN B1 · ES · JA" }
+  ],
+  "links": [
+    { "rotulo": "GitHub", "url": "https://github.com/MatheusGiovani633" },
+    { "rotulo": "LinkedIn", "url": "https://www.linkedin.com/in/matheus-giovani-da-silva-pereira-ab0993210" },
+    { "rotulo": "BattleZone (capstone)", "url": "https://battlezone.net.br" }
+  ],
+  "experiencia": [
+    {
+      "cargo": "QA Analyst",
+      "empresa": "Dataweb Tecnologia · ERP for the optical retail industry",
+      "periodo": "2024 – present (joined the testing team as a Junior Test Assistant)",
+      "pontos": [
+        "I test every ERP release before it reaches the optical stores: I take the task's test build, follow the developer's test plan, probe edge cases and record the result with evidence in Jira (QAlity).",
+        "I automate end-to-end tests with Playwright and Cypress and test APIs and integrations with Postman and Bruno.",
+        "I validate in the database, with SQL, what the screen shows: state before and after each operation, reports and tax rules.",
+        "I test payment and reconciliation integrations such as PIX, card terminals (TEF) and the Fiserv and BRConsulting reconcilers.",
+        "I was the QA for the new WhatsApp Service Center in the CRM module: messages arrive in seconds, are never lost if the system goes down and never reach the wrong customer.",
+        "I use AI agents to speed up test execution, queue triage and documentation, and automate processes with n8n.",
+        "I record training videos of new features for the optical stores and write documentation and changelogs.",
+        "I help plan improvements with the Product Owner, in Scrum and Kanban teams."
+      ]
+    },
+    {
+      "cargo": "Technical Support Analyst",
+      "empresa": "Dataweb Tecnologia",
+      "periodo": "2023 – 2024",
+      "pontos": [
+        "Supported optical stores remotely (AnyDesk) with invoice issuing, reports and ERP routines.",
+        "Adjusted custom queries from development for each customer.",
+        "Managed tickets in Zendesk within SLAs and reported bugs and improvements in Redmine.",
+        "Wrote the configuration documentation for the help center (Zendesk Help Center)."
+      ]
+    },
+    {
+      "cargo": "Junior Front-end Developer",
+      "empresa": "Web2Lead",
+      "periodo": "2019 – 2020",
+      "pontos": [
+        "Built websites for real estate agencies and car dealerships with jQuery and PHP.",
+        "Turned Adobe XD prototypes into responsive pages with Bootstrap.",
+        "Organized the team's tasks in Jira."
+      ]
+    },
+    {
+      "cargo": "Web Development (Young Apprentice)",
+      "empresa": "Cesmar / Thoughtworks",
+      "periodo": "2016 – 2017",
+      "pontos": [
+        "Took part in projects from scoping to delivery.",
+        "Built layouts with Bootstrap and PHP."
+      ]
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Systems Analysis and Development (technologist degree)",
+      "instituicao": "UniFTEC Porto Alegre",
+      "periodo": "In progress",
+      "detalhe": "Capstone project: BattleZone, a card game tournament platform for game stores."
+    },
+    {
+      "curso": "React: Building with JavaScript",
+      "instituicao": "Alura",
+      "periodo": "Completed",
+      "detalhe": ""
+    },
+    {
+      "curso": "IT Technician",
+      "instituicao": "Escola Técnica Cristo Redentor",
+      "periodo": "Completed in 2019",
+      "detalhe": "Networks, hardware and computer maintenance; responsive web and mobile development."
+    },
+    {
+      "curso": "Software Programming",
+      "instituicao": "Polo Marista de Formação Tecnológica",
+      "periodo": "Completed in 2017",
+      "detalhe": "Web fundamentals (HTML, CSS and JavaScript) and relational databases."
+    }
+  ],
+  "habilidades": {
+    "Quality & testing": ["Playwright", "Cypress", "PyTest", "xUnit", "Postman", "Bruno", "Regression testing", "API testing", "Jira + QAlity (JQL)", "AI agents for QA"],
+    "Languages": ["JavaScript", "TypeScript", "C#", "Python", "Kotlin", "SQL", "PHP", "C++"],
+    "Back-end & data": ["ASP.NET Core (.NET 8)", "Entity Framework Core", "Node.js + Express", "FastAPI", "MySQL", "PostgreSQL", "Sequelize", "Swagger / OpenAPI"],
+    "Front-end": ["React", "Next.js", "Angular", "Handlebars", "Bootstrap", "HTML & CSS"],
+    "Mobile & AI": ["Kotlin + Jetpack Compose", "CameraX", "Material 3", "Google Gemini (generative AI)"],
+    "Tools & infra": ["Git", "GitHub Actions", "n8n", "Linux", "AWS", "Zendesk", "Redmine"],
+    "Methods": ["Scrum", "Kanban"]
+  },
+  "idiomas": [
+    "Portuguese: native",
+    "English: intermediate (B1)",
+    "Spanish: basic",
+    "Japanese: basic"
+  ],
+  "projetos": [
+    {
+      "nome": "BattleZone",
+      "tipo": "web · capstone",
+      "url": "https://battlezone.net.br",
+      "descricao": "My capstone project: a TCG tournament platform. Stores publish tournaments; players sign up, pay via PIX (Mercado Pago), submit their decklist and climb the ranking.",
+      "tecnologias": ["FastAPI", "PostgreSQL", "React", "TypeScript", "AWS", "Mercado Pago"]
+    },
+    {
+      "nome": "Backend Generators",
+      "tipo": "api",
+      "url": "https://github.com/MatheusGiovani633/BackendGenerators",
+      "descricao": "A .NET 8 API that generates test data for the optical retail industry: individuals and companies, doctors and eye prescriptions linked to service orders. BCrypt login with refresh tokens, MySQL with migrations and Swagger docs, layered into controllers, services and repositories.",
+      "tecnologias": ["C#", "ASP.NET Core", "EF Core", "MySQL", "Swagger"]
+    },
+    {
+      "nome": "PlantAsking",
+      "tipo": "android",
+      "url": "https://github.com/MatheusGiovani633/PlantAsking",
+      "descricao": "Android app that scans a plant with the camera, assesses its health and \"mood\" with generative AI (Google Gemini), shows care tips and lets you chat with the plant.",
+      "tecnologias": ["Kotlin", "Jetpack Compose", "CameraX", "Gemini", "MVVM"]
+    },
+    {
+      "nome": "Thoughts",
+      "tipo": "web",
+      "url": "https://github.com/MatheusGiovani633/Thoughts-estudos",
+      "descricao": "A social network of thoughts with session-based login, a dashboard to create, edit and delete posts and a public page with search. MVC architecture.",
+      "tecnologias": ["Node.js", "Express", "Handlebars", "Sequelize", "MySQL"]
+    },
+    {
+      "nome": "This site",
+      "tipo": "web",
+      "url": "https://github.com/MatheusGiovani633/Portfolio",
+      "descricao": "My résumé and blog in Node.js + Express, with posts written in Markdown, automated tests and continuous deployment via GitHub Actions.",
+      "tecnologias": ["Node.js", "Express", "Markdown", "GitHub Actions"]
+    }
+  ],
+  "contato": {
+    "email": "matheusgiovani633@gmail.com",
+    "whatsapp": "5551992494038",
+    "cidade": "Porto Alegre, Brazil · open to hybrid or remote roles"
+  }
+}

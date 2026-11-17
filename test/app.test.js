@@ -34,9 +34,25 @@ test('currículo responde com o nome e as seções', async () => {
   const res = await get('/')
   assert.equal(res.status, 200)
   const html = await res.text()
-  for (const s of ['Experiência', 'Formação acadêmica', 'Habilidades técnicas', 'Idiomas', 'Portfólio', 'Contato']) {
-    assert.ok(html.includes(s), `faltou a seção ${s}`)
+  assert.match(html, /<html lang="pt-BR"[^>]*data-theme="light"/)
+  for (const s of ['Matheus Giovani', 'Experiência', 'Projetos', 'Formação e stack']) {
+    assert.ok(html.includes(s), `faltou ${s}`)
   }
+})
+
+test('inglês e japonês têm a própria página', async () => {
+  for (const [p, lang, secao] of [['/en', 'en', 'Experience'], ['/ja', 'ja', '職務経歴']]) {
+    const res = await get(p)
+    assert.equal(res.status, 200)
+    const html = await res.text()
+    assert.match(html, new RegExp(`<html lang="${lang}"`))
+    assert.ok(html.includes(secao), `${p} sem ${secao}`)
+  }
+})
+
+test('"Vamos conversar" abre o WhatsApp', async () => {
+  const html = await (await get('/')).text()
+  assert.match(html, /href="https:\/\/wa\.me\/5551992494038\?text=/)
 })
 
 test('/curriculo redireciona para a página inicial', async () => {

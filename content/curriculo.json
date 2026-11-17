@@ -168,7 +168,8 @@
         "TypeScript",
         "AWS",
         "Mercado Pago"
-      ]
+      ],
+      "tipo": "web · TCC"
     },
     {
       "nome": "Backend Generators",
@@ -180,7 +181,8 @@
         "EF Core",
         "MySQL",
         "Swagger"
-      ]
+      ],
+      "tipo": "api"
     },
     {
       "nome": "PlantAsking",
@@ -192,7 +194,8 @@
         "CameraX",
         "Gemini",
         "MVVM"
-      ]
+      ],
+      "tipo": "android"
     },
     {
       "nome": "Thoughts",
@@ -204,7 +207,8 @@
         "Handlebars",
         "Sequelize",
         "MySQL"
-      ]
+      ],
+      "tipo": "web"
     },
     {
       "nome": "Este site",
@@ -215,11 +219,37 @@
         "Express",
         "Markdown",
         "GitHub Actions"
-      ]
+      ],
+      "tipo": "web"
     }
   ],
   "contato": {
     "email": "matheusgiovani633@gmail.com",
-    "cidade": "Porto Alegre, RS · aberto a vagas híbridas ou remotas"
-  }
+    "cidade": "Porto Alegre, RS · aberto a vagas híbridas ou remotas",
+    "whatsapp": "5551992494038"
+  },
+  "chamada": "Analista de Qualidade e Desenvolvedor. Garanto que cada entrega chegue testada e estável a quem usa.",
+  "destaques": [
+    "testada",
+    "estável"
+  ],
+  "disponibilidade": "Disponível · Porto Alegre · híbrido ou remoto",
+  "ficha": [
+    {
+      "k": "hoje",
+      "v": "QA na Dataweb"
+    },
+    {
+      "k": "formação",
+      "v": "ADS · UniFTEC"
+    },
+    {
+      "k": "experiência",
+      "v": "4+ anos em TI"
+    },
+    {
+      "k": "idiomas",
+      "v": "PT · EN B1 · ES · JA"
+    }
+  ]
 }
